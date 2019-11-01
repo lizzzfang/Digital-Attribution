@@ -16,11 +16,10 @@ PathData is a data.frame with 10.000 rows and 4 columns:
 |---|---|---|---|
 |eta > iota > alpha > eta	|1|0.244|3|
 |iota > iota > iota > iota|2|3.195|6|
+|alpha > iota > alpha > alpha > alpha > iota > alpha > alpha > alpha > alpha > alpha|	2	|6.754|	6|
+|beta > eta	|1	|2.402	|3|
+|iota > eta > theta > lambda > lambda > theta > lambda	|0|	0|	2|
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
 
 #### Markov Chains
 The script is based on R library [ChannelAttribution](https://cran.r-project.org/web/packages/ChannelAttribution/ChannelAttribution.pdf).
