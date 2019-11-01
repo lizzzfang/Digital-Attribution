@@ -16,6 +16,11 @@ PathData is a data.frame with 10.000 rows and 4 columns:
 |eta > iota > alpha > eta	|1	|0.244	|3|
 |iota > iota > iota > iota	|2	|3.195	|6|
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
 #### Markov Chains
 The script is based on R library [ChannelAttribution](https://cran.r-project.org/web/packages/ChannelAttribution/ChannelAttribution.pdf).
 The library includes First-touch, Last-touch, Linear Attibution Models and Markov Chains.
