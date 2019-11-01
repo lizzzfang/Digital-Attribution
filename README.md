@@ -11,6 +11,7 @@ PathData is a data.frame with 10.000 rows and 4 columns:
 - "total_conversions" containing total number of conversions
 - "total_conversion_value" containing total conversion value 
 - "total_null" containing total number of paths that do not lead to conversion.
+
 |path|total_conversions	|total_conversion_value	|total_null	|
 |---|---|---|---|
 |eta > iota > alpha > eta	|1|0.244|3|
