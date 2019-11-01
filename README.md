@@ -11,6 +11,11 @@ PathData is a data.frame with 10.000 rows and 4 columns:
 - "total_conversions" containing total number of conversions
 - "total_conversion_value" containing total conversion value 
 - "total_null" containing total number of paths that do not lead to conversion.
+|path	|total_conversions	|total_conversion_value	|total_null	|
+|---	|---			|---			|---		|
+|eta > iota > alpha > eta	|1	|0.244	|3|
+|iota > iota > iota > iota	|2	|3.195	|6|
+
 #### Markov Chains
 The script is based on R library [ChannelAttribution](https://cran.r-project.org/web/packages/ChannelAttribution/ChannelAttribution.pdf).
 The library includes First-touch, Last-touch, Linear Attibution Models and Markov Chains.
